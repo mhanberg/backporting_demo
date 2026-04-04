@@ -29,7 +29,7 @@ jobs:
         uses: korthout/backport-action@3c06f323a58619da1e8522229ebc8d5de2633e46 # v4.3.0
         with:
           pull_title: "${pull_title}"
-          label_pattern: "^ci:backport ([^ ]+)$"
+          label_pattern: "^release:backport ([^ ]+)$"
           auto_merge_enabled: true
           auto_merge_method: squash
           github_token: ${{ secrets.GITHUB_TOKEN }}
