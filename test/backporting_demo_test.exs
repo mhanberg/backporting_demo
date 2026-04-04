@@ -3,6 +3,6 @@ defmodule BackportingDemoTest do
   doctest BackportingDemo
 
   test "greets the world" do
-    assert BackportingDemo.hello() == :world
+    assert BackportingDemo.hello() == :world!
   end
 end
