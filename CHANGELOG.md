@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.1](https://github.com/mhanberg/backporting_demo/compare/v0.1.0...v0.1.1) (2026-04-04)
+
+
+### Bug Fixes
+
+* use correct exclamation ([#8](https://github.com/mhanberg/backporting_demo/issues/8)) ([034af7d](https://github.com/mhanberg/backporting_demo/commit/034af7da67d43e1170fc7063ccdbe635d859dab8))
+
 ## [0.1.0](https://github.com/mhanberg/backporting_demo/compare/v0.1.0...v0.1.0) (2026-04-04)
 
 
