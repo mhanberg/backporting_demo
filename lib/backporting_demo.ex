@@ -15,4 +15,8 @@ defmodule BackportingDemo do
   def hello do
     :world!
   end
+
+  def goodbye! do
+    System.halt(0)
+  end
 end
