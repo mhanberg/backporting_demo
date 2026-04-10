@@ -15,3 +15,13 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: googleapis/release-please-action@16a9c90856f42705d54a6fda1823352bdc62cf38 # v4.4.0
+      - name: Create release branch
+        shell: bash
+        if: ${{ steps.release.outputs.release_created }}
+        env:
+          BRANCH: v${{ steps.release.outputs.major }}.${{  steps.release.outputs.minor }}
+        run: |
+          git config user.name github-actions[bot]
+          git config user.email github-actions[bot]@users.noreply.github.com
+          git checkout -b "$BRANCH"
+          git push -u origin "$BRANCH"
