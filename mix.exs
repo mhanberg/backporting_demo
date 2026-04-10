@@ -4,7 +4,7 @@ defmodule BackportingDemo.MixProject do
   def project do
     [
       app: :backporting_demo,
-      version: "0.2.0-dev",
+      version: "0.2.0",
       elixir: "~> 1.17",
       start_permanent: Mix.env() == :prod,
       deps: deps()
