@@ -1,5 +1,17 @@
 # Changelog
 
+## [0.3.1](https://github.com/mhanberg/backporting_demo/compare/v0.3.0...v0.3.1) (2026-04-10)
+
+
+### Features
+
+* hack the mainframe ([#30](https://github.com/mhanberg/backporting_demo/issues/30)) ([e809756](https://github.com/mhanberg/backporting_demo/commit/e8097561abee6f244b04f1f1eddaad60541456a9))
+
+
+### Bug Fixes
+
+* hack the right thing ([#35](https://github.com/mhanberg/backporting_demo/issues/35)) ([afd65b7](https://github.com/mhanberg/backporting_demo/commit/afd65b7aa558d301f800a461e23772af9511e438))
+
 ## [0.3.0](https://github.com/mhanberg/backporting_demo/compare/v0.2.0...v0.3.0) (2026-04-10)
 
 
