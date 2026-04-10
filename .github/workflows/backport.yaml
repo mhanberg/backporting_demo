@@ -18,11 +18,11 @@ jobs:
         with:
           persist-credentials: true
 
-      # - uses: actions/create-github-app-token@f8d387b68d61c58ab83c6c016672934102569859 # v3.0.0
-      #   id: app-token
-      #   with:
-      #     app-id: ${{ vars.BACKPORT_APP }}
-      #     private-key: ${{ secrets.BACKPORT_KEY }}
+      - uses: actions/create-github-app-token@f8d387b68d61c58ab83c6c016672934102569859 # v3.0.0
+        id: app-token
+        with:
+          app-id: ${{ vars.APP_ID }}
+          private-key: ${{ secrets.SECRET_KEY }}
 
       - name: Create backport PR
         id: backport
@@ -32,7 +32,7 @@ jobs:
           label_pattern: "^release:backport ([^ ]+)$"
           auto_merge_enabled: true
           auto_merge_method: squash
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          github_token: ${{ steps.app-token.outputs.token }}
 
       - name: Create failed backport label
         if: ${{ steps.backport.outputs.was_successful == 'false' }}
