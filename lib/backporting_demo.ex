@@ -19,4 +19,8 @@ defmodule BackportingDemo do
   def goodbye!(code) do
     System.halt(code)
   end
+
+  def hacking do
+    :mainframe
+  end
 end
