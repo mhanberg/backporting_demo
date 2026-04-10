@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.2](https://github.com/mhanberg/backporting_demo/compare/v0.1.1...v0.1.2) (2026-04-10)
+
+
+### Features
+
+* goodbye! function ([#11](https://github.com/mhanberg/backporting_demo/issues/11)) ([4889f70](https://github.com/mhanberg/backporting_demo/commit/4889f70f4099979b972e007041dfd80db2849391))
+
 ## [0.1.1](https://github.com/mhanberg/backporting_demo/compare/v0.1.0...v0.1.1) (2026-04-04)
 
 
