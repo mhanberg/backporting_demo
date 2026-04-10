@@ -16,7 +16,7 @@ defmodule BackportingDemo do
     :world!
   end
 
-  def goodbye! do
-    System.halt(0)
+  def goodbye!(code) do
+    System.halt(code)
   end
 end
