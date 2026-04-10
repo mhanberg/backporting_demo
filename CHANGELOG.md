@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.2.1](https://github.com/mhanberg/backporting_demo/compare/v0.2.0...v0.2.1) (2026-04-10)
+
+
+### Bug Fixes
+
+* pass code to goodbye! ([#15](https://github.com/mhanberg/backporting_demo/issues/15)) ([c454912](https://github.com/mhanberg/backporting_demo/commit/c454912c2c6969b7fb6deae9f9011bf62f572627))
+
 ## [0.2.0](https://github.com/mhanberg/backporting_demo/compare/v0.1.0...v0.2.0) (2026-04-10)
 
 
