@@ -1,5 +1,16 @@
 # Changelog
 
+## [1.1.0](https://github.com/mhanberg/backporting_demo/compare/v1.0.0...v1.1.0) (2026-04-11)
+
+
+### ⚠ BREAKING CHANGES
+
+* breaking change in function
+
+### Features
+
+* breaking change in function ([ad1033d](https://github.com/mhanberg/backporting_demo/commit/ad1033da115ab111eb5cc9d1d6b9a8bb24976d7a))
+
 ## [1.0.0](https://github.com/mhanberg/backporting_demo/compare/v0.3.0...v1.0.0) (2026-04-11)
 
 
