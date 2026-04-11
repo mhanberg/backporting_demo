@@ -21,6 +21,6 @@ defmodule BackportingDemo do
   end
 
   def hacking do
-    :main_frame
+    :mainframe
   end
 end
