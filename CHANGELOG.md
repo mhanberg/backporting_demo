@@ -1,5 +1,26 @@
 # Changelog
 
+## [1.1.0](https://github.com/mhanberg/backporting_demo/compare/v1.0.0...v1.1.0) (2026-08-13)
+
+
+### ⚠ BREAKING CHANGES
+
+* hello function has a different return value
+    - The hello function now returns 'planet' instead of 'world'
+      
+      ```elixir
+      # before
+      hello() == :world
+      # after
+      hello() == :planet
+      ```
+* breaking change in function
+
+### Features
+
+* breaking change in function ([ad1033d](https://github.com/mhanberg/backporting_demo/commit/ad1033da115ab111eb5cc9d1d6b9a8bb24976d7a))
+* hello planet ([868fe2c](https://github.com/mhanberg/backporting_demo/commit/868fe2ce8f1d4ec709cdc321bba82196684b19e5))
+
 ## [1.0.0](https://github.com/mhanberg/backporting_demo/compare/v0.3.0...v1.0.0) (2026-04-11)
 
 
