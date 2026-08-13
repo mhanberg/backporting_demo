@@ -13,7 +13,7 @@ defmodule BackportingDemo do
 
   """
   def hello do
-    :world!
+    :planet!
   end
 
   def goodbye!(code) do
