@@ -9,11 +9,11 @@ defmodule BackportingDemo do
   ## Examples
 
       iex> BackportingDemo.hello()
-      :world!
+      :planet!
 
   """
   def hello do
-    :world!
+    :planet!
   end
 
   def goodbye!(code) do
